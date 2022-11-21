@@ -33,7 +33,8 @@
               </div>
             
               <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="btn btn-danger" type="button">Entrar</button>
+                
+                <button class="btn btn-danger" type="button"><a href="./fornecedores/fichaFornecedores.php" class="text-white" >Entrar</a></button>
               </div>
             </form>
             

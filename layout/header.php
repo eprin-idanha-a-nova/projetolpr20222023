@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-pt">
 
 <head>
     <meta charset="UTF-8">
@@ -15,9 +15,9 @@
 <body>
 
 
-    <header>
+    <header class="mb-5">
 
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,28 +25,28 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="../artigos/fichaArtigos.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Artigos
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Ficha de Artigos</a></li>
+                      <li><a class="dropdown-item" href="../artigos/fichaArtigos.php">Ficha de Artigos</a></li>
                       <li><a class="dropdown-item" href="#">consulta de stock</a></li>
                     </ul>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="../clientes/fichadeclientes.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           clientes
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Ficha de clientes</a></li>
+                          <li><a class="dropdown-item" href="../clientes/fichadeclientes.php">Ficha de clientes</a></li>
                           <li><a class="dropdown-item" href="#">Emisao de documentos</a></li>
                           <li><a class="dropdown-item" href="#">consultar conta corrente</a></li>
                         </ul>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="../fornecedores/fichaFornecedores.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Fornecedores
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Ficha de Fornecedores</a></li>
+                              <li><a class="dropdown-item" href="../fornecedores/fichaFornecedores.php">Ficha de Fornecedores</a></li>
                               <li><a class="dropdown-item" href="#">Emisao de documentos</a></li>
                               <li><a class="dropdown-item" href="#">consultar conta corrente</a></li>
                             </ul>
@@ -63,32 +63,4 @@
             </div>
           </nav>
 
-
-
     </header>
-
-
-    <main>
-
-
-
-    </main>
-
-
-
-    <footer>
-
-
-
-    </footer>
-
-
-
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
